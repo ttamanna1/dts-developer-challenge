@@ -1,0 +1,27 @@
+{
+  "name": "dts-developer-challenge",
+  "version": "1.0.0",
+  "description": "## Objective To assess your ability to build a simple API and frontend using best coding practices.",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "NODE_ENV=test node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "NODE_ENV=production node backend/server.js",
+    "dev": "NODE_ENV=development nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.1.0"
+  }
+}
